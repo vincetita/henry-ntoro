@@ -35,3 +35,9 @@ M.Autocomplete.init(ac, {
   });
 
 
+  $('.dropdown-trigger').dropdown();
+
+  $(document).ready(function(){
+    $('.collapsible').collapsible();
+  });
+      
